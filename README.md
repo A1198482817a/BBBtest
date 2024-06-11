@@ -208,7 +208,7 @@ bash talk2car/script/train.sh
 
 One can find the current Talk2Car leaderboard here. The models on Talk2Car are evaluated by checking if the Intersection over Union of the predicted object bounding box and the ground truth bounding box is above 0.5. This metric can be referred to in many ways i.e. IoU<sub>0.5</sub>, AP50.
 
-<div align="center">
+
 
 
 |                            Model                             | AP50 / IoU<sub>0.5</sub> |                             Code                             |
@@ -229,7 +229,7 @@ One can find the current Talk2Car leaderboard here. The models on Talk2Car are e
 | [Stacked VLBert](https://link.springer.com/chapter/10.1007/978-3-030-66096-3_2) |           71.0           |                                                              |
 | [FA](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9961196) |          73.51           |                                                              |
 
-</div>
+
 
 ## Links
 

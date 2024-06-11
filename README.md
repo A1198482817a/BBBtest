@@ -142,7 +142,7 @@ gdown --id 1bhcdej7IFj5GqfvXGrHGPk2Knxe77pek
 
 3.Unzip and organize the images:
 
-```
+ ```bash
 unzip imgs.zip && mv imgs/ ./data/images
 rm imgs.zip
 ```
@@ -190,7 +190,7 @@ rm imgs.zip
 
 Simply run the following command in your terminal:
 
-```
+ ```bash
 bash talk2car/script/train.sh 
 ```
 

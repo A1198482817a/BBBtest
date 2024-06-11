@@ -210,6 +210,7 @@ One can find the current Talk2Car leaderboard here. The models on Talk2Car are e
 
 
 <div align="center">
+
 |                            Model                             | AP50 / IoU<sub>0.5</sub> |                             Code                             |
 | :----------------------------------------------------------: | :----------------------: | :----------------------------------------------------------: |
 |      [STACK-NMN](https://arxiv.org/pdf/1807.08556.pdf)       |          33.71           |                                                              |
@@ -229,6 +230,7 @@ One can find the current Talk2Car leaderboard here. The models on Talk2Car are e
 | [FA](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9961196) |          73.51           |                                                              |
 
 </div>
+
 
 
 ## Links

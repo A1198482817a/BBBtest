@@ -104,7 +104,7 @@ conda activate  E3AD
 
  Install PyTorch and associated libraries compatible with CUDA 11.7:
 
-```
+ ```bash
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
@@ -112,7 +112,7 @@ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cud
 
 Complete the environment setup by installing the necessary packages from `requirements.txt`:
 
-```
+ ```bash
 pip install -r requirements.txt
 ```
 
@@ -122,21 +122,21 @@ pip install -r requirements.txt
 
 Experiments were conducted using the Talk2Car dataset. Should you utilize this dataset in your work, please ensure to cite the original paper.
 
-```
+ ```bash
 Thierry Deruyttere, Simon Vandenhende, Dusan Grujicic, Luc Van Gool, Marie-Francine Moens:
 Talk2Car: Taking Control of Your Self-Driving Car. EMNLP 2019
 ```
 
 1. Activate the E3AD environment and install `gdown` for downloading the dataset:
 
-```
+ ```bash
 conda activate E3AD
 pip install gdown
 ```
 
 2.Download the Talk2Car images:
 
-```
+ ```bash
 gdown --id 1bhcdej7IFj5GqfvXGrHGPk2Knxe77pek
 ```
 
@@ -210,7 +210,6 @@ One can find the current Talk2Car leaderboard here. The models on Talk2Car are e
 
 
 <div align="center">
-
 |                            Model                             | AP50 / IoU<sub>0.5</sub> |                             Code                             |
 | :----------------------------------------------------------: | :----------------------: | :----------------------------------------------------------: |
 |      [STACK-NMN](https://arxiv.org/pdf/1807.08556.pdf)       |          33.71           |                                                              |

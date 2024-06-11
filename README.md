@@ -95,7 +95,7 @@ DrivePilot is pioneering in leveraging the linguistic capabilities of GPT-4V for
 
 For optimal use of the E3AD, follow these setup guidelines:
 
-```
+```bash
 conda create -name  E3AD python=3.7
 conda activate  E3AD
 ```
@@ -104,7 +104,7 @@ conda activate  E3AD
 
  Install PyTorch and associated libraries compatible with CUDA 11.7:
 
- ```bash
+```bash
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
